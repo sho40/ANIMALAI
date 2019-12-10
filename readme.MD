@@ -15,7 +15,8 @@
  
 ***デモ***
  
-![デモ](https://gyazo.com/aa62d452e151c3465ddbc150db8d3fd9)
+デモ  
+https://gyazo.com/aa62d452e151c3465ddbc150db8d3fd9
  
 ## 機能
   
