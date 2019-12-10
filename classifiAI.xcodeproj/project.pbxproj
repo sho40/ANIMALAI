@@ -26,6 +26,7 @@
 		DFB44F7D239EC304000F2E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB44F7F239EC304000F2E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB44F85239EDA13000F2E77 /* animal_cnn_aug.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animal_cnn_aug.mlmodel; sourceTree = "<group>"; };
+		DFB44F87239F7782000F2E77 /* readme.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		DFB44F65239EC303000F2E77 = {
 			isa = PBXGroup;
 			children = (
+				DFB44F87239F7782000F2E77 /* readme.MD */,
 				DFB44F70239EC303000F2E77 /* classifiAI */,
 				DFB44F6F239EC303000F2E77 /* Products */,
 			);
