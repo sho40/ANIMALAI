@@ -13,6 +13,7 @@
 		DFB44F79239EC303000F2E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB44F77239EC303000F2E77 /* Main.storyboard */; };
 		DFB44F7B239EC304000F2E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB44F7A239EC304000F2E77 /* Assets.xcassets */; };
 		DFB44F7E239EC304000F2E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB44F7C239EC304000F2E77 /* LaunchScreen.storyboard */; };
+		DFB44F86239EDA13000F2E77 /* animal_cnn_aug.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DFB44F85239EDA13000F2E77 /* animal_cnn_aug.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DFB44F7A239EC304000F2E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB44F7D239EC304000F2E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB44F7F239EC304000F2E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB44F85239EDA13000F2E77 /* animal_cnn_aug.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animal_cnn_aug.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DFB44F73239EC303000F2E77 /* SceneDelegate.swift */,
 				DFB44F75239EC303000F2E77 /* ViewController.swift */,
 				DFB44F77239EC303000F2E77 /* Main.storyboard */,
+				DFB44F85239EDA13000F2E77 /* animal_cnn_aug.mlmodel */,
 				DFB44F7A239EC304000F2E77 /* Assets.xcassets */,
 				DFB44F7C239EC304000F2E77 /* LaunchScreen.storyboard */,
 				DFB44F7F239EC304000F2E77 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				DFB44F76239EC303000F2E77 /* ViewController.swift in Sources */,
 				DFB44F72239EC303000F2E77 /* AppDelegate.swift in Sources */,
+				DFB44F86239EDA13000F2E77 /* animal_cnn_aug.mlmodel in Sources */,
 				DFB44F74239EC303000F2E77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDT4A4MB43;
 				INFOPLIST_FILE = classifiAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDT4A4MB43;
 				INFOPLIST_FILE = classifiAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
